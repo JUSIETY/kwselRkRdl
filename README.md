@@ -16,3 +16,5 @@ Welcome to my personal study repository! This space contains photos, diagrams, a
 ---
 
 ## 📂 Structure
+26 10 : 2026년 10월
+past record : old records without day record
