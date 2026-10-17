@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T02:50:52.046Z",
-  "trigger": "site_opened",
+  "updatedAt": "2026-10-17T02:51:00.916Z",
+  "trigger": "server_saved",
   "timezone": "Asia/Seoul",
   "mandalart": {
     "version": 1,
@@ -3410,7 +3410,9 @@
       }
     ],
     "defaultTimetableId": "school",
-    "dayTimetables": {},
+    "dayTimetables": {
+      "2026-10-17": "free"
+    },
     "totalMinutes": 610,
     "byCategory": {
       "korean": 400,
