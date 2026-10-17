@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T12:49:58.358Z",
+  "updatedAt": "2026-10-17T12:50:14.376Z",
   "trigger": "server_saved",
   "timezone": "Asia/Seoul",
   "mandalart": {
@@ -3306,18 +3306,6 @@
         "slotLabel": "아침자습"
       },
       {
-        "id": "ecb667c4-7b62-4879-96b2-2d04dfc8e9f2",
-        "date": "2026-10-15",
-        "subject": "국어",
-        "category": "korean",
-        "minutes": 20,
-        "note": "매3비",
-        "timetableId": "school",
-        "timetableName": "기본 시간표",
-        "slotId": "dawn",
-        "slotLabel": "새벽"
-      },
-      {
         "id": "6c69b86e-a8d3-4c97-8dfb-67d930d1bbf4",
         "date": "2026-10-16",
         "subject": "매6지",
@@ -3384,6 +3372,19 @@
         "category": "korean",
         "minutes": 20,
         "note": "",
+        "startTime": "07:00",
+        "timetableId": "school",
+        "timetableName": "기본 시간표",
+        "slotId": "dawn",
+        "slotLabel": "새벽"
+      },
+      {
+        "id": "ecb667c4-7b62-4879-96b2-2d04dfc8e9f2",
+        "date": "2026-10-15",
+        "subject": "국어",
+        "category": "korean",
+        "minutes": 20,
+        "note": "매3비",
         "startTime": "07:00",
         "timetableId": "school",
         "timetableName": "기본 시간표",
