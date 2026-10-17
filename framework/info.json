@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T06:42:01.042Z",
-  "trigger": "server_saved",
+  "updatedAt": "2026-10-17T07:33:03.912Z",
+  "trigger": "site_opened",
   "timezone": "Asia/Seoul",
   "mandalart": {
     "version": 1,
@@ -3213,6 +3213,31 @@
           "57ac6609-b936-47c9-ac44-bc8c4bdf7303",
           "f2405b14-5c38-4db3-af4f-df6174118941",
           "297f2cbe-c7ee-45ee-8ace-5e2ab4473a5e"
+        ]
+      }
+    ]
+  },
+  "mtScore": {
+    "version": 1,
+    "exams": [
+      {
+        "id": "b6d9c3f6-0c80-4f5a-bae6-091a504aaa97",
+        "grade": 1,
+        "year": 2022,
+        "month": 11,
+        "type": "기출",
+        "name": "2022 고1 11월 교육청",
+        "takenDate": "2026-10-16",
+        "attempt": 1,
+        "templateId": "",
+        "note": "시간 부족, 정답률 등 전반적으로 아쉬움",
+        "subjects": [
+          {
+            "name": "국어",
+            "score": 56,
+            "max": 100,
+            "level": 5
+          }
         ]
       }
     ]
