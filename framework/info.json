@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T12:43:16.482Z",
-  "trigger": "site_opened",
+  "updatedAt": "2026-10-17T12:49:29.104Z",
+  "trigger": "server_saved",
   "timezone": "Asia/Seoul",
   "mandalart": {
     "version": 1,
@@ -3398,7 +3398,9 @@
           {
             "id": "dawn",
             "label": "새벽",
-            "minutes": 20
+            "minutes": 20,
+            "startTime": "07:00",
+            "endTime": "07:20"
           },
           {
             "id": "morning",
@@ -3436,7 +3438,8 @@
     ],
     "defaultTimetableId": "school",
     "dayTimetables": {
-      "2026-10-17": "free"
+      "2026-10-17": "free",
+      "2026-10-16": "school"
     },
     "totalMinutes": 610,
     "byCategory": {
