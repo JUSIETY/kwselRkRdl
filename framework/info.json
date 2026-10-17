@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T12:08:05.280Z",
-  "trigger": "site_opened",
+  "updatedAt": "2026-10-17T12:08:27.474Z",
+  "trigger": "server_saved",
   "timezone": "Asia/Seoul",
   "mandalart": {
     "version": 1,
@@ -2442,7 +2442,7 @@
         },
         {
           "id": "f0e01706-4149-4650-a5fd-b00f3df376e1",
-          "title": "다 푼 책",
+          "title": "풀고있는 책",
           "done": false,
           "notes": "",
           "children": [
