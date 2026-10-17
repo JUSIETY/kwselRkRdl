@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T06:40:57.346Z",
-  "trigger": "site_opened",
+  "updatedAt": "2026-10-17T06:42:01.042Z",
+  "trigger": "server_saved",
   "timezone": "Asia/Seoul",
   "mandalart": {
     "version": 1,
     "root": {
       "id": "73b3dcaa-ebe9-4629-a225-f8667db51173",
-      "title": "수능 만점",
+      "title": "시험 만점",
       "done": false,
       "notes": "",
       "children": [
