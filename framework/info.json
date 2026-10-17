@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T12:49:29.104Z",
+  "updatedAt": "2026-10-17T12:49:58.358Z",
   "trigger": "server_saved",
   "timezone": "Asia/Seoul",
   "mandalart": {
@@ -3202,17 +3202,17 @@
         "completedPlans": 1,
         "studyMinutes": 250,
         "byCategory": {
-          "korean": 180,
           "english": 50,
+          "korean": 180,
           "math": 20
         },
         "completedRecordIds": [
-          "1b707d12-b8c7-44aa-861c-1af954c81ae3",
           "6c69b86e-a8d3-4c97-8dfb-67d930d1bbf4",
           "67dd9d00-b4c6-4661-9989-b063e9f42d83",
           "57ac6609-b936-47c9-ac44-bc8c4bdf7303",
           "f2405b14-5c38-4db3-af4f-df6174118941",
-          "297f2cbe-c7ee-45ee-8ace-5e2ab4473a5e"
+          "297f2cbe-c7ee-45ee-8ace-5e2ab4473a5e",
+          "1b707d12-b8c7-44aa-861c-1af954c81ae3"
         ]
       }
     ]
@@ -3318,18 +3318,6 @@
         "slotLabel": "새벽"
       },
       {
-        "id": "1b707d12-b8c7-44aa-861c-1af954c81ae3",
-        "date": "2026-10-16",
-        "subject": "매3비 라이트",
-        "category": "korean",
-        "minutes": 20,
-        "note": "",
-        "timetableId": "school",
-        "timetableName": "기본 시간표",
-        "slotId": "dawn",
-        "slotLabel": "새벽"
-      },
-      {
         "id": "6c69b86e-a8d3-4c97-8dfb-67d930d1bbf4",
         "date": "2026-10-16",
         "subject": "매6지",
@@ -3388,6 +3376,19 @@
         "timetableName": "기본 시간표",
         "slotId": "night2",
         "slotLabel": "야간자습 2"
+      },
+      {
+        "id": "1b707d12-b8c7-44aa-861c-1af954c81ae3",
+        "date": "2026-10-16",
+        "subject": "매3비 라이트",
+        "category": "korean",
+        "minutes": 20,
+        "note": "",
+        "startTime": "07:00",
+        "timetableId": "school",
+        "timetableName": "기본 시간표",
+        "slotId": "dawn",
+        "slotLabel": "새벽"
       }
     ],
     "timetables": [
