@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T15:26:52.293Z",
-  "trigger": "site_opened",
+  "updatedAt": "2026-10-18T15:27:12.331Z",
+  "trigger": "server_saved",
   "timezone": "Asia/Seoul",
   "mandalart": {
     "version": 1,
@@ -1129,7 +1129,7 @@
               "children": [
                 {
                   "id": "d0167665-3292-4ad6-9738-ba28cb89b874",
-                  "title": "",
+                  "title": "시간 in 5개",
                   "done": false,
                   "notes": "",
                   "children": null
@@ -3153,7 +3153,7 @@
       ]
     },
     "progress": {
-      "total": 108,
+      "total": 109,
       "completed": 2,
       "percent": 2
     }
