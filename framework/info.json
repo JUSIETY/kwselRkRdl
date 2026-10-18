@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T15:42:25.779Z",
-  "trigger": "server_saved",
+  "updatedAt": "2026-10-18T15:42:28.502Z",
+  "trigger": "site_opened",
   "timezone": "Asia/Seoul",
   "mandalart": {
     "version": 1,
