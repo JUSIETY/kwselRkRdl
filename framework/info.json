@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T15:27:12.331Z",
+  "updatedAt": "2026-10-18T15:42:25.779Z",
   "trigger": "server_saved",
   "timezone": "Asia/Seoul",
   "mandalart": {
@@ -3244,6 +3244,7 @@
   },
   "studyTime": {
     "version": 1,
+    "dimigoTimetableRevision": 1,
     "entries": [
       {
         "id": "a37ebb0b-a92a-4469-8bbb-95f9278ddcea",
@@ -3255,7 +3256,9 @@
         "timetableId": "school",
         "timetableName": "기본 시간표",
         "slotId": "night2",
-        "slotLabel": "야간자습 2"
+        "slotLabel": "야간자습 2",
+        "startTime": "21:30",
+        "startTimeSource": "dimigo_timetable"
       },
       {
         "id": "8b6a83c4-72eb-4faf-a5f7-c46137d95703",
@@ -3267,7 +3270,9 @@
         "timetableId": "school",
         "timetableName": "기본 시간표",
         "slotId": "night1",
-        "slotLabel": "야간자습 1"
+        "slotLabel": "야간자습 1",
+        "startTime": "19:30",
+        "startTimeSource": "dimigo_timetable"
       },
       {
         "id": "c083eec1-8c76-4cf3-b971-5939a189f202",
@@ -3279,7 +3284,9 @@
         "timetableId": "school",
         "timetableName": "기본 시간표",
         "slotId": "after2",
-        "slotLabel": "방과후 자습 2"
+        "slotLabel": "방과후 자습 2",
+        "startTime": "17:20",
+        "startTimeSource": "dimigo_timetable"
       },
       {
         "id": "db30ef87-8def-4f11-8f0f-e80700953a9f",
@@ -3291,7 +3298,9 @@
         "timetableId": "school",
         "timetableName": "기본 시간표",
         "slotId": "after1",
-        "slotLabel": "방과후 자습 1"
+        "slotLabel": "방과후 자습 1",
+        "startTime": "16:20",
+        "startTimeSource": "dimigo_timetable"
       },
       {
         "id": "778da2b2-6018-475b-b7b7-4dd86393085b",
@@ -3303,7 +3312,9 @@
         "timetableId": "school",
         "timetableName": "기본 시간표",
         "slotId": "morning",
-        "slotLabel": "아침자습"
+        "slotLabel": "아침자습",
+        "startTime": "07:20",
+        "startTimeSource": "dimigo_timetable"
       },
       {
         "id": "6c69b86e-a8d3-4c97-8dfb-67d930d1bbf4",
@@ -3315,7 +3326,9 @@
         "timetableId": "school",
         "timetableName": "기본 시간표",
         "slotId": "morning",
-        "slotLabel": "아침자습"
+        "slotLabel": "아침자습",
+        "startTime": "07:20",
+        "startTimeSource": "dimigo_timetable"
       },
       {
         "id": "67dd9d00-b4c6-4661-9989-b063e9f42d83",
@@ -3327,7 +3340,9 @@
         "timetableId": "school",
         "timetableName": "기본 시간표",
         "slotId": "after1",
-        "slotLabel": "방과후 자습 1"
+        "slotLabel": "방과후 자습 1",
+        "startTime": "16:20",
+        "startTimeSource": "dimigo_timetable"
       },
       {
         "id": "57ac6609-b936-47c9-ac44-bc8c4bdf7303",
@@ -3339,7 +3354,9 @@
         "timetableId": "school",
         "timetableName": "기본 시간표",
         "slotId": "after2",
-        "slotLabel": "방과후 자습 2"
+        "slotLabel": "방과후 자습 2",
+        "startTime": "17:20",
+        "startTimeSource": "dimigo_timetable"
       },
       {
         "id": "f2405b14-5c38-4db3-af4f-df6174118941",
@@ -3351,7 +3368,9 @@
         "timetableId": "school",
         "timetableName": "기본 시간표",
         "slotId": "night1",
-        "slotLabel": "야간자습 1"
+        "slotLabel": "야간자습 1",
+        "startTime": "19:30",
+        "startTimeSource": "dimigo_timetable"
       },
       {
         "id": "297f2cbe-c7ee-45ee-8ace-5e2ab4473a5e",
@@ -3363,7 +3382,9 @@
         "timetableId": "school",
         "timetableName": "기본 시간표",
         "slotId": "night2",
-        "slotLabel": "야간자습 2"
+        "slotLabel": "야간자습 2",
+        "startTime": "21:30",
+        "startTimeSource": "dimigo_timetable"
       },
       {
         "id": "1b707d12-b8c7-44aa-861c-1af954c81ae3",
@@ -3407,27 +3428,37 @@
           {
             "id": "morning",
             "label": "아침자습",
-            "minutes": 50
+            "minutes": 50,
+            "startTime": "07:20",
+            "endTime": "08:10"
           },
           {
             "id": "after1",
             "label": "방과후 자습 1",
-            "minutes": 50
+            "minutes": 50,
+            "startTime": "16:20",
+            "endTime": "17:10"
           },
           {
             "id": "after2",
             "label": "방과후 자습 2",
-            "minutes": 50
+            "minutes": 50,
+            "startTime": "17:20",
+            "endTime": "18:10"
           },
           {
             "id": "night1",
             "label": "야간자습 1",
-            "minutes": 90
+            "minutes": 90,
+            "startTime": "19:30",
+            "endTime": "21:00"
           },
           {
             "id": "night2",
             "label": "야간자습 2",
-            "minutes": 100
+            "minutes": 90,
+            "startTime": "21:30",
+            "endTime": "23:00"
           }
         ]
       },
